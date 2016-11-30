@@ -112,15 +112,15 @@ POS
               <ul class="dropdown-menu" style="background-color: #356BA1;">
                 <li><a href="<?php echo base_url();?>" style="color: #fff;"><i class="icon-dashboard icon-2x"></i> DashBoard</a></li>
 				<li><a href="<?php echo base_url();?>sales"><i class="icon-shopping-cart icon-2x"></i> Sales</a></li>				
-                <li><a href="products.html" style="color: #fff;"><i class="icon-list-alt icon-2x"></i> Products</a></li>
+                <li><a href="<?php echo base_url();?>" style="color: #fff;"><i class="icon-list-alt icon-2x"></i> Products</a></li>
 				<li><a href="<?php echo base_url();?>ajax_cust_ctrl" style="color: #fff;"><i class="icon-group icon-2x"></i> Customer</a></li>
                 <li><a href="<?php echo base_url();?>Supplier_ctrl" style="color: #fff;"><i class="icon-group icon-2x"></i> Suppliers</a></li>
                 <li role="separator" class="divider"></li>
                 <li class="dropdown-header" style="color: #fff;">Repors</li>
-                <li><a href="salesreport.html?d1=0&d2=0" style="color: #fff;"><i class="icon-bar-chart icon-2x"></i> Sales Report</a></li>
-                <li><a href="sales_inventory.html" style="color: #fff;"><i class="icon-table icon-2x"></i> Product Inventory</a></li>
+                <li><a href="<?php echo base_url();?>" style="color: #fff;"><i class="icon-bar-chart icon-2x"></i> Sales Report</a></li>
+                <li><a href="<?php echo base_url();?>" style="color: #fff;"><i class="icon-table icon-2x"></i> Product Inventory</a></li>
 				
-				<li><a href="user_create.html" style="color: #fff;"><i class="icon-table icon-2x"></i> Create New User</a></li>
+				<li><a href="<?php echo base_url();?>" style="color: #fff;"><i class="icon-table icon-2x"></i> Create New User</a></li>
 			  </ul>
             </li>
           </ul>
@@ -128,7 +128,7 @@ POS
             <li title=""><a style="color: #fff;"><i class="icon-user icon-large"></i> Welcome:<strong></strong></a></li>
             <li><a style="color: #fff;"><i class="icon-calendar icon-large"></i></a>
 			</li>
-            <li class="activee"><a href="../index.html" style="color: #fff;"><font color="red"><i class="icon-off icon-large"></i></font> Log Out</a></li>
+            <li class="activee"><a href="<?php echo base_url();?>" style="color: #fff;"><font color="red"><i class="icon-off icon-large"></i></font> Log Out</a></li>
 
 			<li class="dropdown">
           <a href="#" class="dropdown-toggle" style="color: #DCA349;" data-toggle="dropdown" role="button" aria-expanded="false"> <span class="glyphicon glyphicon-shopping-cart"></span> 7 - Items<span class="caret"></span></a>
